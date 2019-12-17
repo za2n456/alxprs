@@ -1,0 +1,41 @@
+#mybutton {
+    display: block;
+    font-size: 18px;
+    position: fixed;
+    z-index: 99999;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    padding: 15px;
+    background: #ffffff;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.2);
+    text-align: center;
+}
+#mybutton a {
+    background-color : #ff6600;
+    color: white;
+    padding: 10px 20px;
+}
+.action {
+    margin: 0 auto;
+}
+.price {
+    font-size: 14px;
+}
+.price del {
+    font-size: 18px;
+    font-weight: bold;
+}
+.price span {
+    font-size: 28px;
+    color: #f60;
+    font-weight: bold;
+}
+img {max-width:100%;height:auto;}
+iframe {max-width:100%;height:auto;max-height:400px;}
+a.btn {color:white;}
