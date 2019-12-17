@@ -34,6 +34,10 @@
 .price span {
     font-size: 28px;
     color: #f60;
+}
+.action {
+    font-size: 28px;    
+    color: #f60;
     font-weight: bold;
 }
 img {max-width:100%;height:auto;}
