@@ -5,8 +5,7 @@
       @click.prevent="handleGallery(index)">
       <div :class="$style.image">
         <img
-          v-lazyload="image.thumb"
-          class="lazyload"
+          :src="image.thumb"
           alt="">
       </div>
     </a>

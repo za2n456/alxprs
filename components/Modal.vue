@@ -32,8 +32,7 @@
 
             <img
               v-if="type === 'image' && activeItem"
-              v-lazyload="activeItem.src"
-              class="lazyload"
+              :src="activeItem.src"
               alt="">
           </div>
 

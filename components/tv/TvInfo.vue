@@ -4,8 +4,7 @@
       <div :class="$style.poster">
         <img
           v-if="poster"
-          v-lazyload="poster"
-          class="lazyload"
+          :src="poster"
           :alt="name">
 
         <span v-else>

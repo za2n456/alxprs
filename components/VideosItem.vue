@@ -8,8 +8,7 @@
       <div :class="$style.image">
         <img
           v-if="video.thumb"
-          v-lazyload="video.thumb"
-          class="lazyload"
+          :src="video.thumb"
           :alt="video.name">
 
         <div

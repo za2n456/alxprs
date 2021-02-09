@@ -15,8 +15,7 @@
 
           <img
             v-if="backdrop"
-            v-lazyload="backdrop"
-            class="lazyload"
+            :src="backdrop"
             :class="$style.image"
             :alt="name">
         </div>

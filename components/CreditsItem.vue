@@ -6,8 +6,7 @@
       <div class="credits-item__img">
         <img
           v-if="poster"
-          v-lazyload="poster"
-          class="lazyload"
+          :src="poster"
           :alt="person.name">
 
         <span v-else>

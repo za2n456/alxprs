@@ -1,6 +1,5 @@
 module.exports = {
-  mode: 'universal',
-
+  target: 'static',
   vue: {
     config: {
       productionTip: false,
@@ -87,23 +86,23 @@ module.exports = {
   build: {
     loaders: {
       cssModules: {
-        camelCase: true,
-        localIdentName: '[local]_[hash:base64:5]',
+        // camelCase: true,
+        // localIdentName: '[local]_[hash:base64:5]',
       },
     },
 
     /*
     ** Run ESLint on save
     */
-    extend (config, { isDev, isClient }) {
-      if (isDev && isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/,
-        });
-      }
-    },
+    // extend (config, { isDev, isClient }) {
+    //   if (isDev && isClient) {
+    //     config.module.rules.push({
+    //       enforce: 'pre',
+    //       test: /\.(js|vue)$/,
+    //       loader: 'eslint-loader',
+    //       exclude: /(node_modules)/,
+    //     });
+    //   }
+    // },
   },
 };
