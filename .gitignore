@@ -12,7 +12,7 @@ yarn-error.log
 dist
 
 # Environment files
-.env
+# .env
 
 # @nuxtjs/pwa
 sw.*
